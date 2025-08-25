@@ -2,7 +2,7 @@ fastapi
 uvicorn
 pydantic
 google-generativeai
-sqlite3
 streamlit
 requests
+
 python-multipart
