@@ -334,3 +334,7 @@ def main():
                         st.session_state.pending_purchase = True
 
                 st.rerun()
+
+if __name__ == "__main__":
+    main()
+
