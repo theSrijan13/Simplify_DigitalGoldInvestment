@@ -92,4 +92,4 @@ Authentication is basic → future scope: OAuth2 / JWT-based login.
 Deployment tested locally → can be extended to Streamlit Cloud + Render/Railway.
 
 👨‍💻 Author
-Shrijan Sahu
+Srijan Sahu
