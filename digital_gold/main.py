@@ -28,7 +28,7 @@ app.add_middleware(
 )
 
 # Configure Gemini API
-GEMINI_API_KEY = st.secrets.get("GEMINI_API_KEY")
+GEMINI_API_KEY = st.secrets.get("GEMINI_API_KEY") or os.getenv("GEMINI_API_KEY")
 genai.configure(api_key=GEMINI_API_KEY)
 
 # Database setup
@@ -317,3 +317,4 @@ async def health_check():
 if __name__ == "__main__":
     import uvicorn
     uvicorn.run(app, host="127.0.0.1", port=8000)
+
