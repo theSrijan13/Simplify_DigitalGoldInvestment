@@ -45,13 +45,14 @@ It integrates an **LLM-powered AI assistant** with a **FastAPI backend** and **S
 
 git clone https://github.com/<your-username>/Simplify_DigitalGoldInvestment.git
 cd Simplify_DigitalGoldInvestment
+
 2️⃣ Create Virtual Environment & Install Dependencies
 
 python -m venv venv
 source venv/bin/activate   # Linux/Mac
 venv\Scripts\activate      # Windows
-
 pip install -r requirements.txt
+
 3️⃣ Run the FastAPI Backend
 
 uvicorn main:app --reload --host 127.0.0.1 --port 8000
